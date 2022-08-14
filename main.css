@@ -1,0 +1,64 @@
+/* Background Image */
+
+.backgroundimg {
+    background: linear-gradient(#1C0C5B, #3D2C8D, #916BBF, #C996CC);
+    background-repeat: no-repeat;
+    /* background-image: url(images/waveform1.jpg); */
+    background-position: center;
+    /* background-size: contain; */
+    background-size: 100vw 100vh;
+    /* background-size: 30%; */
+}
+
+
+/* Input division */
+
+.input {
+    text-align: center;
+    margin-top: 10%;
+}
+
+
+/* search button when hovering */
+
+.btn:hover {
+    background-color: rgb(75, 77, 79);
+    border-color: black;
+}
+
+
+/* search button */
+
+.btn {
+    height: 7.5%;
+    border-radius: 30px;
+    width: fit-content;
+    border-color: dimgray;
+    font-size: 100%;
+}
+
+
+/* search input field */
+
+.search {
+    width: 25%;
+    border-radius: 30px;
+    text-align: center;
+    height: 7.5%;
+    border-color: dimgray;
+    font-size: 100%;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+
+/* 
+.top {
+    background-color: blue;
+}
+
+.middle1 {
+    background-color: blueviolet;
+} */
